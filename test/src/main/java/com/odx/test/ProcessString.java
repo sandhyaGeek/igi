@@ -1,7 +1,7 @@
 package com.odx.test;
 
 import org.springframework.stereotype.Component;
-
+//This class is used to process the string and find the longest palindrome, contains main logic.
 @Component
 public class ProcessString {
 	
