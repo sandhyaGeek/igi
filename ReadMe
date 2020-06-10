@@ -1,0 +1,10 @@
+Sample requests:
+
+http://localhost:8080/savePalindrome?_s_=sasandy
+result: sas
+
+http://localhost:8080/savePalindrome
+result:Please send parameter value for _s_
+
+http://localhost:8080/getPalindrome
+result:sas, 
