@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.odx.database.DBService;
 import com.odx.database.Demo;
 
+//This is the main controller class, which is used to process the requests.
 @RestController
 public class LongestPalindrome {
 	
@@ -16,7 +17,7 @@ public class LongestPalindrome {
 	private DBService db;
 	
 	@Autowired
-	ProcessString ps;
+	ProcessString ps; // Dependency injection
 	@RequestMapping("/savePalindrome")
 	public String savePalindrome(HttpServletRequest request) {
 		String s = request.getParameter("_s_");
