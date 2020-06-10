@@ -7,6 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+// This is the entity class mapped to the table demo
 @Entity
 @Table(name="demo")
 public class Demo {
