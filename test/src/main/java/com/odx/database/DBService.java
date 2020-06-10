@@ -9,7 +9,7 @@ import org.hibernate.query.Query;
 import org.springframework.stereotype.Component;
 
 
-
+// This class is used to do crud operations on the database
 public class DBService {
 	private SessionFactory factory;
 
